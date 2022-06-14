@@ -1,0 +1,91 @@
+* { 
+  margin:0; padding:0; box-sizing:border-box; 
+}
+p{
+	font-size:18px;
+}
+.img {display: block; margin: 0px auto; }
+
+#myrellink{
+  margin-top:5px;margin-bottom:3px;
+}
+#grid{
+grid-template-columns: 200px 1fr; max-height:210px;min-width:200px;max-width:800px;
+}
+.vlp-link-text-container {
+  padding: 33px 46px 0px 39px;
+	min-width:200px;
+	min-height:200px;
+}
+.vlp-link-title{
+  font-size: 22px;
+  margin: 0px 0px 10px;
+	white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.vlp-link-summary{
+  white-space: normal; 
+	line-height: 1.4; 
+	max-height: 2.8em; 
+	overflow: hidden;
+  text-align: left; 
+	margin: 0px 0px 25px;
+}
+.vlp-link-image{
+min-height:200px; max-height:200px;
+}
+img.linkimage{
+	min-height:200px; max-height:200px;
+}
+img.link_image{
+	min-height:300px; max-height:300px;
+}
+@media(max-width:400px){
+#grid {
+  grid-template-columns: 120px 1fr;	
+  overflow: hidden;
+  max-height: 120px;
+  min-height:120px;
+}
+.vlp-link-text-container {
+  padding: 14px 12px 0px 18px;
+  min-height:120px;
+  max-height: 120px;
+}
+.vlp-link-title{
+margin: 0px 0px 10px 0px;
+white-space: normal; 
+font-size: 14px;
+}
+.vlp-link-summary {
+  display:none;
+}
+.vlp-link-image{
+  min-height:120px;	max-height:120px;
+}
+img.linkimage{
+  max-height: 120px; min-height:120px;
+}
+}
+div#myindex{
+  padding: 10px 5px 0px 15px;
+  border: 1px solid #333;
+  margin-bottom: 15px;
+  background-color: #FFFBFA;
+}
+ul.mylist li{
+  list-style-type: circle;
+  padding-bottom: 10px;
+  margin-left: 30px;
+}
+h2.mytitle{
+  min-height:50px; color: #ffffff; text-align: left; border-style: dashed; border-radius: 25px 5px 25px 5px; border-color: #F78181; background-color:#F78181; padding: 10px 0px 0px 10px; font-family: 'Nanum Gothic';  font-size:24px;
+} 
+h3.mytitle{
+ font-size:22px;
+} 
+h4{
+border-style: solid; border-width: 1px 0px 1px 0px; padding: 10px; word-break: break-all;
+border-color: #df301a;background-color: #FFFBFA;margin-left: 20px;margin-right: 20px; margin-bottom:20px; text-align: center;
+}
